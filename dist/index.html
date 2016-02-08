@@ -1,40 +1,368 @@
 <!doctype html>
 <html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+<body>
+<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
+<header class="header-container" id="top"><!--header-->
+    <div class="top-menu-container"><!--begin top-menu-container-->
+        <div class="container"><!--begin container-->
+            <nav class="top-menu-navigation">
+                <ul>
+                    <li><a href="">Top link1</a></li>
+                    <li><a href="">Dropdown</a>
+                        <ul>
+                            <li><a href="">Level 2 Item 1</a></li>
+                            <li><a href="">Level 2 Item 2</a>
+                                <ul>
+                                    <li><a href="">Level 3 Item 9</a></li>
+                                    <li><a href="">Level 3 Item 2</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Level 2 Item 3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Top link3</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!--end container-->
+    </div>
+    <!--end top-menu-container-->
 
-        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+    <!--end header_container-->
+    <div class="container">
+        <div class="row "><!--row begin-->
+            <div class="col-md-3 col-sm-3 logo-container">
+                <h1 class="logo"><a href="">
+                    <img src="img/images/logo_07.png" alt="Creative">
+                </a>
+                </h1>
+            </div>
+            <!--end span3-->
+            <div class="col-md-9 col-sm-9">
+                <figure class="ad-block pull-right">
+                    <img src="http://lorempixel.com/480/60" alt="ad-block">
+                </figure>
+            </div>
+            <!--end span9-->
+        </div>
+        <!--end row-->
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='https://www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-        </script>
-    </body>
+        <hr>
+
+        <nav class="main-navigation clearfix">
+            <ul>
+                <li><a href="">Main link1</a></li>
+                <li><a href="">Dropdown</a>
+                    <ul>
+                        <li><a href="">Level 2 Item 1</a></li>
+                        <li><a href="">Level 2 Item 2</a>
+                            <ul>
+                                <li><a href="">Level 3 Item 1</a></li>
+                                <li><a href="">Level 3 Item 2</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Level 2 Item 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Main link3</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<!--end header-->
+
+<!--Main content-->
+<div class="container main-container">
+    <div class="row">
+        <div class="col-md-9 col-sm-9">
+            <div class="acticles">
+                <article class="clearfix">
+                    <header class="clearfix">
+                        <a href="" class="article-meta-comments">10</a>
+
+                        <p class="article-meta-categories"><a href="">Category</a></p>
+
+                        <h1><a href="">This is the post title</a></h1>
+
+                        <p class="article-meta-extra">September 20th,
+                            2015 by <a href="">Adi Purdila</a></p>
+                    </header>
+
+                    <figure class="article-preview-image">
+                        <a href=""><img src="http://lorempixel.com/210/210"
+                                        alt="Preview image"></a>
+                    </figure>
+                    <p>Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Excepturi, impedit.</p>
+
+                    <p><a href="">Read more</a></p>
+                </article>
+                <!--end article-->
+
+                <hr class="fancy-hr">
+
+                <article>
+                    <header>
+                        <span class="post-format-quote"></span>
+
+                        <p class="article-meta-categories"><a href="">Category</a></p>
+
+                        <p class="article-meta-extra">September 20th,2015 by
+                            <a href="">Thomas Levi</a></p>
+                    </header>
+
+                    <div class="quote-container">
+                        <blockquote>This is a very simple quote!
+                            This is a very simple quote!
+                            This is a very simple quote!
+                            This is a very simple quote!
+                        </blockquote>
+                        <cite>- Adi Cuore</cite>
+                    </div>
+
+                </article>
+
+                <hr class="fancy-hr">
+
+                <article>
+                    <header>
+                        <span class="post-format-url"></span>
+
+                        <p class="article-meta-categories"><a href="">Category</a></p>
+
+                        <p class="article-meta-extra">September 20th,2015 by Thomas Levi</p>
+                    </header>
+
+                    <div class="url-container">
+                        <p>This will be a link description</p>
+                        <span><a href="http://vk.com/feed">vk.com</a></span>
+                    </div>
+
+                </article>
+
+                <hr class="fancy-hr">
+
+                <div class="acticles-nav clearfix"><!--begin acticles-nav-->
+                    <p class="acricles-nav-prev"><a href="">&laquo; Older post</a></p>
+
+                    <p class="acricles-nav-next"><a href="">Newer post &raquo;</a></p>
+                </div>
+                <!--end acticles-nav-->
+            </div>
+        </div>
+        <!--end span9-->
+        <aside class="col-md-3 col-sm-3 main-sidebar">
+            <div class="sidebar-widget">
+                <h4 class="search">Search</h4>
+
+                <form action="" id="Search-form" method="get">
+                    <input type="text" value="search"
+                           onblur="if(this.value=='')this.value='search'"
+                           onfocus="if(this.value=='search')this.value=''">
+                    <input type="hidden" value="submit">
+                </form>
+            </div>
+            <!--end sidebar-widget-->
+
+            <div class="sidebar-widget">
+                <h4>Connect With US</h4>
+
+                <p>Click the icons below to get in touch
+                    or follow us on our socials networks</p>
+
+                <ul class="social-icons clearfix">
+                    <li class="social-icons__item"><a class="di" href=""></a></li>
+                    <li class="social-icons__item"><a class="fb" href=""></a></li>
+                    <li class="social-icons__item"><a class="tw" href=""></a></li>
+                </ul>
+
+            </div>
+            <!--end sidebar-widger-->
+
+            <div class="sidebar-widget">
+                <h4>Ad 125x125</h4>
+
+                <ul class="ad-125 clearfix">
+                    <li class="ad-125__item">
+                        <figure class="ad-block">
+                            <a href=""><img src="http://lorempixel.com/125/125" alt="ad 125"></a>
+                        </figure>
+                    </li>
+
+                    <li class="ad-125__item alt">
+                        <figure class="ad-block">
+                            <a href=""><img src="http://lorempixel.com/125/125" alt="ad 125"></a>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+            <!--end sidebar-widget-->
+
+            <div class="sidebar-widget">
+
+                <h4>Ad 260x120</h4>
+
+                <ul class="ad-260">
+                    <li class="ad-260__item">
+                        <figure class="ad-block">
+                            <a href=""><img src="http://lorempixel.com/260/120"
+                                            alt="ad 260"></a>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+            <!--end sidebar-widget-->
+
+            <div class="sidebar-widget">
+                <h4>Simple list</h4>
+
+                <ul class="simple-list">
+                    <li class="simple-list__item">
+                        <a class="simple-list__link" href="">Main link1</a></li>
+                    <li class="simple-list-item">
+                        <a class="simple-list__link" href="">Dropdown</a>
+                        <ul>
+                            <li><a class="simple-list__link" href="">Level 2 Item 1</a></li>
+                            <li><a class="simple-list__link" href="">Level 2 Item 2</a>
+                                <ul>
+                                    <li><a class="simple-list__link" href="">Level 3 Item 1</a></li>
+                                    <li><a class="simple-list__link" href="">Level 3 Item 2</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="simple-list__link" href="">Level 2 Item 3</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="simple-list__link" href="">Main link3</a></li>
+                </ul>
+
+            </div>
+            <!--end sidebar-widget-->
+
+
+        </aside>
+        <!--end span3-->
+    </div>
+    <!--end row-->
+</div>
+<!--end Main content-->
+
+<!--Footer-->
+<footer>
+
+    <div class="footer-widger-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-3">
+
+                    <div class="footer-sidebar-widget">
+                        <h4>Simple list</h4>
+
+                        <ul class="simple-list">
+                            <li class="simple-list__item">
+                                <a class="simple-list__link" href="">Main link1</a></li>
+                            <li class="simple-list-item">
+                                <a class="simple-list__link" href="">Dropdown</a>
+                                <ul>
+                                    <li><a class="simple-list__link" href="">Level 2 Item 1</a></li>
+                                    <li><a class="simple-list__link" href="">Level 2 Item 2</a>
+                                        <ul>
+                                            <li><a class="simple-list__link" href="">Level 3 Item 1</a></li>
+                                            <li><a class="simple-list__link" href="">Level 3 Item 2</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="simple-list__link" href="">Level 2 Item 3</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="simple-list__link" href="">Main link3</a></li>
+                        </ul>
+
+                    </div>
+                    <!--end footer-sidebar-widget-->
+
+                </div>
+
+                <div class="col-md-3 col-sm-3">
+                    <div class="footer-sidebar-widger">
+                        <h4>Connect With US</h4>
+
+                        <p>Click the icons below to get in touch
+                            or follow us on our socials networks</p>
+
+                        <ul class="social-icons clearfix">
+                            <li class="social-icons__item"><a class="di" href=""></a></li>
+                            <li class="social-icons__item"><a class="fb" href=""></a></li>
+                            <li class="social-icons__item"><a class="tw" href=""></a></li>
+                        </ul>
+
+                    </div>
+                    <!--end footer-sidebar-widget-->
+                </div>
+
+                <div class="col-md-6 col-sm-6">
+
+                    <div class="sidebar-widger">
+                        <h4>Simple Text Widget</h4>
+
+                        <p><span>Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit.
+                            Amet asperiores aut fugiat modi
+                            voluptatum? Adipisci dignissimos
+                            eveniet, exercitationem in labore,
+                            magnam maiores molestiae nam officiis
+                            optio sed vero voluptas voluptates!
+                        </span>
+                        </p>
+
+
+                    </div>
+                    <!--end sidebar-widger-->
+                </div>
+                <!--end span6-->
+
+
+            </div>
+            <!--end row-->
+        </div>
+        <!--end container-->
+    </div>
+    <!--end widget-area-->
+    <div class="copyright-container clearfix">
+        <div class="container">
+            <p><a href="#top" class="top-link-footer">Go to top</a>
+            </p>
+
+            <p>&copy; 2015 qwerty</p>
+        </div>
+    </div>
+
+</footer>
+<!--end footer-->
+
+<!--<script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js"></script>-->
+<!--<script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>-->
+<!--<script src="js/plugins.js"></script>-->
+<!--<script src="js/main.js"></script>-->
+
+
+</body>
 </html>

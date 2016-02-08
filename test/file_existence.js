@@ -24,7 +24,7 @@ var expectedFilesInDistDir = [
 
     'css/', // for directories, a `/` character
             // should be included at the end
-        'css/main.css',
+        'css/main.scss',
         'css/normalize.css',
 
     'doc/',
