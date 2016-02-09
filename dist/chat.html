@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/chat.css">
+
+    <script src="js/vendor/jquery-1.12.0.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</head>
+<body>
+
+<div class="container custom-container">
+    <div class="row">
+        <div class="col-md-5 row-inside">
+            <div class="panel">
+                <div class="panel-heading panel-heading-custom">
+                    <span class="glyphicon  glyphicon-arrow-left arrow-left"></span>
+                    <span class="heading-title">Jack Sparrow</span>
+
+                    <div class="btn-group pull-right pull-right-custom">
+                        <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
+                            <span class="glyphicon glyphicon-option-horizontal"></span>
+                        </button>
+                        <ul class="dropdown-menu slidedown">
+                            <li><a href="http://www.jquery2dotnet.com"><span class="glyphicon glyphicon-refresh">
+                            </span>Refresh</a></li>
+                            <li><a href="http://www.jquery2dotnet.com"><span class="glyphicon glyphicon-ok-sign">
+                            </span>Available</a></li>
+                            <li><a href="http://www.jquery2dotnet.com"><span class="glyphicon glyphicon-remove">
+                            </span>Busy</a></li>
+                            <li><a href="http://www.jquery2dotnet.com"><span class="glyphicon glyphicon-time"></span>
+                                Away</a></li>
+                            <li class="divider"></li>
+                            <li><a href="http://www.jquery2dotnet.com"><span class="glyphicon glyphicon-off"></span>
+                                Sign Out</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="panel-body">
+                    <ul class="chat">
+                        <li class="left clearfix">
+                            <div class="chat-img pull-left">
+                                <img src="http://placehold.it/50/55C1E7/fff&text=U" alt="User Avatar"
+                                     class="img-circle"/>
+                            </div>
+
+                            <div class="chat-body tooltip-left">Lorem ipsum dolor sadgagds sdsad s
+                                Lorem ipsum dolor sadgagds sdsad s
+                            </div>
+                            <p class="chat-body-under">5.42pm from Karin</p>
+
+                        </li>
+
+
+                        <li class="right clearfix">
+
+                            <div class="pull-right">
+                                <div class="chat-body tooltip-right"> Lorem ipsumLorem ipsumLorem</div>
+                                <p class="chat-body-under">5.42pm from Karin
+                                <span class="glyphicon glyphicon-ok">
+
+                                </span>
+                                </p>
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+                <div class="panel-footer">
+                    <div class="input-group">
+                        <input id="btn-input" type="text" class="form-control input-sm"
+                               placeholder="Type your message here..."/>
+                        <span class="input-group-btn">
+                            <button class="btn btn-warning btn-sm" id="btn-chat">
+                                Send
+                            </button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
